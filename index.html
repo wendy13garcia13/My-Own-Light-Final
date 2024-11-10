@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Own Light</title>
+<link rel ="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+<button onclick="getLocation()">Geo Location</button>
+	<p id="demo"></p>
+</head>
+<body>
+	<div id="container">
+		<header><h1 class="lugrasimo-regular">My Own Light</h1></header>	 
+		 <nav>
+			<ul>
+ 		 	<li><a href="index.html">Home</a></li>
+  			<li><a href="About.html">Contact</a></li>
+			<li><a href="CrystalsGemstones.html">Crystals and Gemstones</a></li>
+			<li><a href="EnergyHealing.html">Energy Healing</a></li>
+			<li><a href="MeditationF.html">Meditation</a></li>	
+  			<li style="float:right"><a class="active" href="About.html">About</a></li>
+			</ul>
+		</nav>
+		 <section>
+		<article class ="left"><img src="images/picGem.png" alt="oops"
+			 usemap="#CrystalsGemstones" width="150" height="150">
+			<p> Explore the energy properties of Crystals and Gemstones</p>
+	<map name="CrystalsGemstones">
+	<area shape="rect" coords="2,1,144,141" alt="CrystalsGemstones" href="CrystalsGemstones.html">
+	</map></article>
+	<article class ="left"><img src="images/mainpageMed.png" alt="oops" width="150" height="150">
+	<p>Meditation is challenging, explore some of the things that worked for me!</p>	
+	</article>		 
+			 
+	<audio controls autoplay >
+		<source src="Audio/meditation_nature.wav" type="audio/mpeg">
+	</audio>		 
+	</section>
+	</div>
+	<footer>Copyright Wendy Garcia 2024<br>
+		</footer>	
+</body>
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+		
+	
+</html>
+
+
+
