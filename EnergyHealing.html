@@ -1,54 +1,29 @@
 <!doctype html>
 <html>
+<head>
 <meta charset="utf-8">
 <title>EnergyHealing</title>
 <link rel ="stylesheet" href="main.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">	
-<style>
-	table, th, td {
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:;
-  
-}
-th, td {
-  padding-top: 40px;
-  padding-bottom:40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color:rgba(85,2,219,0.68);
-  color:white;
-}
-	
-header{
-  width:100%;
-  height:100px;
-}
-</style>
-
+</head>	
 <body>
- <nav>
-	 <ul>
+<div class="flex container">
+	<header><h1 class="lugrasimo-regular">Energy Healing</h1></header>	
+	<nav> 
+	<ul>
  	 	<li><a href="index.html">Home</a></li>
-  		<li><a href="About.html">Contact</a></li>
-		<li><a href="CrystalsGemstones.html">Crystals and Gemstones</a></li>
+		<li><a href="CrystalsGemstones.html">Crystals and Stones</a></li>
 		<li><a href="EnergyHealing.html">Energy Healing</a></li>
 		<li><a href="MeditationF.html">Meditation</a></li>	
   		<li style="float:right"><a class="active" href="About.html">About</a></li>
 	 </ul>
-</nav>
-<div id="container">
-	<table>
-	<caption><h1 class="lugrasimo-regular">Energy Healing</h1></caption>
-	<tr>
+</nav>	
+<div class="flex-container">
+  <div class="makeMeStack" style="flex-grow: 1">
 	<th>Chakras</th>
-	<th>Energetic Field</th>
-	<th>Body Healing Points</th>
-	</tr>
-		
-	<tr><td><ol>
+	<td><ol>
 	<li>Crown</li>
 	<li>Third Eye </li>
 	<li>Throat</li>
@@ -57,33 +32,58 @@ header{
 	<li>Sacral</li>
 	<li>Root</li>	
 	</ol></td>
-			
-		<td><ol>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	</ol></td>
-		
-		<td><ol>
-	<li></li>
-	<li></li>
-	<li></li>
-	</ol></td>			
-	</tr>
-	</table>
-	
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Crown Chakra </p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Third Eye Chakra</p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Throat Chakra</p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Heart Chakra</p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Solar Plexus Chakra</p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Sacral Chakra</p></h3>
-	<h3><p style="font-size:30px" align="left">&#x1F49C About the Root Chakra</p></h3>
+	</div>
+	</div>
+<body>
+<link rel="stylesheet" href="jqueryAccordion/jquery-ui.css">
+  <link rel="stylesheet" href="jqueryAccordion/jquery-ui.js">
+  <link rel="stylesheet" href="jqueryAccordion/jquery-ui.structure.css">
+  <link rel="stylesheet" href="jqueryAccordion/jquery-ui.theme.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<body>	
+<div id="accordion">
+  <h3>Why are Chakras Important</h3>
+  <div>
+    <p>Chakras are considered important in many spiritual and holistic traditions because they are thought to represent key energy centers in the body that influence physical, emotional, and spiritual well-being.
+	</p>
+	<p>Chakras are integral to spiritual practices like yoga and meditation. Working with them is thought to enhance self-awareness, raise consciousness, and facilitate a connection with the divine or universal energy.</p>
+	<p>According to traditions like yoga, Ayurveda, and Reiki, the body's life force, or prana (energy), flows through the chakras. Maintaining open and aligned chakras ensures the smooth circulation of this vital energy.</p>
+	<p>Meditation, breathwork, yoga, visualization, sound therapy, aromatherapy, and crystal healing are commonly used to balance chakras.</p>	
+	<p>Though the concept of chakras originates from ancient Indian spiritual traditions, it has become popular globally, blending with modern holistic and wellness practices. Whether you see them as metaphors or literal energy centers, engaging with chakras can offer tools for self-reflection and well-being. </p>
+  </div>
+  <h3>Energy Flow</h3>
+  <div>
+    <p>Chakras are believed to regulate energy flow in the body. Balanced chakras can lead to better health and harmony, while blocked or imbalanced chakras are associated with discomfort or dysfunction.</p>
+  </div>
+  <h3>What are they linkg to?</h3>
+  <div>
+    <p>Each chakra is linked to specific physical organs, emotional states, and mental processes. For example:
+The root chakra is associated with stability and basic needs.
+The heart chakra relates to love and compassion.
+The third-eye chakra is connected to intuition and insight.</p>
+  </div>
+	<h3>Balance</h3>	
+  <div>
+    <p>Balancing chakras can help release emotional blockages, fostering personal growth, emotional healing, and resilience.</p>
+  </div>	  
 </div>
+<script>
+$( "#accordion" ).accordion();
+</script>		
+
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Chakra System</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/ZxtRtpFTEmM?si=l2L7sytelr17rRBt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Crown Chakra </p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/09sBrq6B7Wg?si=K5ru8Yh84L6sPlgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+											  
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Third Eye Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/fHsaFr8ZiRU?si=F1DEPSFDJ0QD7ZrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Throat Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/JuwW2KchU4E?si=eM_9rMhByKCV2Ihg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Heart Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/854mkii5xFA?si=9AKST9NY93g3lCzK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Solar Plexus Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/DON8uFzO_UQ?si=ipD_qPlF-wd6ztvy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Sacral Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/K6SBkgkl2Jo?si=i32hBw_AmOv-ULd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3><p style="font-size:30px" align="left">&#x1F49C About the Root Chakra</p></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/ulwJgAecQRA?si=QF2ip1UswC28WVS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <footer>Copyright Wendy Garcia 2024<br>
 </footer>
+
 </body>
 </html>
